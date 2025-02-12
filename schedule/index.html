@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>SUT-SYSTEM2</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  
+  <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+
+  <link rel="icon" type="image/x-icon" href="/assets\favicon.ico">
+  
+  <script src="/assets\js/fontawesome.js"></script>
+  <link href="/assets\css/main.css" rel="stylesheet" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
+  <!-- MathJax configuration -->
+  <script type="text/x-mathjax-config" defer>
+    MathJax.Hub.Config({
+        config: ["MMLorHTML.js"],
+        jax: ["input/TeX", "output/HTML-CSS", "output/NativeMML"],
+        extensions: ["MathMenu.js", "MathZoom.js"],
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true,
+            processEnvironments: true
+        },
+        // Center justify equations in code and markdown cells. Elsewhere
+        // we use CSS to left justify single line equations in code cells.
+        displayAlign: 'center',
+        "HTML-CSS": {
+            styles: {'.MathJax_Display': {"margin": 0}, '.MathJax': {"z-index": -10}},
+            linebreaks: { automatic: true }
+        }
+    });
+  </script>
+
+  <!-- <script src="/assets\js/tailwindcss.js"></script> -->
+  <script src="/assets\js/jquery-3.6.4.min.js"></script>
+</head>
+
+
+<body class="scroll-smooth">
+  
+  <div class="flex flex-col">
+    
+      <nav class="navbar navbar-default navbar-fixed-top gradient-navbar">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand brand text-white" href="/">Deep Learning</a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="icon-bar bg-white"></span>
+        <span class="icon-bar bg-white"></span>
+        <span class="icon-bar bg-white"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        
+        
+          <li><a href="/" class="text-white">Home</a></li>
+        
+        
+          <li><a href="/schedule" class="text-white">Schedule</a></li>
+        
+        
+          <li><a href="/slides" class="text-white">Slides</a></li>
+        
+        
+          <li><a href="/workshops" class="text-white">Workshops</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    
+    <div class="flex-grow mt-1 px-4 md:px-10 pt-4 pb-4 md:max-w-screen-xl md:mx-auto md:w-full break-words">
+      
+
+  <div id="contentWrapper" class="w-full max-w-full flex flex-col gap-y-6 transition-all duration-300 pt-10 sm:pt-20 md:pt-10 lg:pt-10">
+    
+      
+  
+    
+<div
+    
+    id="schedule"
+    
+    class="container sec">
+    <h2>Schedule</h2>
+    
+    <table class="table">
+      <colgroup>
+        
+        
+          <col style="width: 0.02631578947368421%">
+        
+          <col style="width: 0.13157894736842105%">
+        
+          <col style="width: 0.21052631578947367%">
+        
+          <col style="width: 0.42105263157894735%">
+        
+          <col style="width: 0.10526315789473684%">
+        
+          <col style="width: 0.10526315789473684%">
+        
+      </colgroup>
+
+      <thead class="active">
+        <tr class="active">
+          
+            <th>  </th>
+          
+            <th> Date </th>
+          
+            <th> Description </th>
+          
+            <th> Course Materials </th>
+          
+            <th> Events </th>
+          
+            <th> Deadlines </th>
+          
+        </tr>
+      </thead>
+
+      <tbody class="block md:table-row-group">
+        
+          <tr class="
+            
+              info-row
+            ">
+            
+              <td>
+                <span>1</span>
+              </td>
+            
+              <td>
+                <span>Sun, Mehr 1</span>
+              </td>
+            
+              <td>
+                <span>Introduction & Intelligent Agents
+</span>
+              </td>
+            
+              <td>
+                <span>TODO</span>
+              </td>
+            
+              <td>
+                <span>TODO</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              warning-row
+            ">
+            
+              <td>
+                <span>2</span>
+              </td>
+            
+              <td>
+                <span>Tue, Mehr 3</span>
+              </td>
+            
+              <td>
+                <span>Uninformed Search
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              deadline-row
+            ">
+            
+              <td>
+                <span>3</span>
+              </td>
+            
+              <td>
+                <span>Sun, Mehr 8</span>
+              </td>
+            
+              <td>
+                <span>Uninformed Search
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              even-row
+            ">
+            
+              <td>
+                <span>4</span>
+              </td>
+            
+              <td>
+                <span>Tue, Mehr 10</span>
+              </td>
+            
+              <td>
+                <span>Informed Search
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              odd-row
+            ">
+            
+              <td>
+                <span>5</span>
+              </td>
+            
+              <td>
+                <span>Sun, Mehr 15</span>
+              </td>
+            
+              <td>
+                <span>Informed Search
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              even-row
+            ">
+            
+              <td>
+                <span>6</span>
+              </td>
+            
+              <td>
+                <span>Tue, Mehr 17</span>
+              </td>
+            
+              <td>
+                <span>Local Search
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              odd-row
+            ">
+            
+              <td>
+                <span>7</span>
+              </td>
+            
+              <td>
+                <span>Sun, Mehr 22</span>
+              </td>
+            
+              <td>
+                <span>Search in Continuous Spaces
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              even-row
+            ">
+            
+              <td>
+                <span>8</span>
+              </td>
+            
+              <td>
+                <span>Tue, Mehr 24</span>
+              </td>
+            
+              <td>
+                <span>Constraint Satisfaction Problems
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              odd-row
+            ">
+            
+              <td>
+                <span>9</span>
+              </td>
+            
+              <td>
+                <span>Tue, Mehr 29</span>
+              </td>
+            
+              <td>
+                <span>Constraint Satisfaction Problems
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              even-row
+            ">
+            
+              <td>
+                <span>10</span>
+              </td>
+            
+              <td>
+                <span>Tue, Aban 1</span>
+              </td>
+            
+              <td>
+                <span>Adversarial Search
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              odd-row
+            ">
+            
+              <td>
+                <span>11</span>
+              </td>
+            
+              <td>
+                <span>Sun, Aban 6</span>
+              </td>
+            
+              <td>
+                <span>Uncertainty & Inference
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              even-row
+            ">
+            
+              <td>
+                <span>12</span>
+              </td>
+            
+              <td>
+                <span>Tue, Aban 8</span>
+              </td>
+            
+              <td>
+                <span>Bayesian Networks: Representation
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              odd-row
+            ">
+            
+              <td>
+                <span>13</span>
+              </td>
+            
+              <td>
+                <span>Sun, Aban 13</span>
+              </td>
+            
+              <td>
+                <span>Inference in Bayesian Networks: Exact
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              even-row
+            ">
+            
+              <td>
+                <span>14</span>
+              </td>
+            
+              <td>
+                <span>Tue, Aban 15</span>
+              </td>
+            
+              <td>
+                <span>Inference in Bayesian Networks: Approximate
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              odd-row
+            ">
+            
+              <td>
+                <span>15</span>
+              </td>
+            
+              <td>
+                <span>Sun, Aban 20</span>
+              </td>
+            
+              <td>
+                <span>Temporal Probability Models: Markov Chains & HMMs
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              even-row
+            ">
+            
+              <td>
+                <span>16</span>
+              </td>
+            
+              <td>
+                <span>Tue, Aban 22</span>
+              </td>
+            
+              <td>
+                <span>Temporal Probability Models: Particle Filters
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              odd-row
+            ">
+            
+              <td>
+                <span>17</span>
+              </td>
+            
+              <td>
+                <span>Sun, Aban 27</span>
+              </td>
+            
+              <td>
+                <span>Learning in Bayesian Networks & Naive Bayes
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              even-row
+            ">
+            
+              <td>
+                <span>18</span>
+              </td>
+            
+              <td>
+                <span>Tue, Aban 29</span>
+              </td>
+            
+              <td>
+                <span>Decision Tree
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              odd-row
+            ">
+            
+              <td>
+                <span>19</span>
+              </td>
+            
+              <td>
+                <span>Sun, Azar 4</span>
+              </td>
+            
+              <td>
+                <span>Concepts of Machine Learning
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              even-row
+            ">
+            
+              <td>
+                <span>20</span>
+              </td>
+            
+              <td>
+                <span>Tue, Azar 6</span>
+              </td>
+            
+              <td>
+                <span>Regression & Optimization
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              odd-row
+            ">
+            
+              <td>
+                <span>21</span>
+              </td>
+            
+              <td>
+                <span>Tue, Azar 11</span>
+              </td>
+            
+              <td>
+                <span>Perceptron
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              even-row
+            ">
+            
+              <td>
+                <span>22</span>
+              </td>
+            
+              <td>
+                <span>Sun, Azar 13</span>
+              </td>
+            
+              <td>
+                <span>Neural Networks
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              odd-row
+            ">
+            
+              <td>
+                <span>23</span>
+              </td>
+            
+              <td>
+                <span>Sun, Azar 18</span>
+              </td>
+            
+              <td>
+                <span>Neural Networks
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              even-row
+            ">
+            
+              <td>
+                <span>24</span>
+              </td>
+            
+              <td>
+                <span>Tue, Azar 20</span>
+              </td>
+            
+              <td>
+                <span>Markov Decison Process
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              odd-row
+            ">
+            
+              <td>
+                <span>25</span>
+              </td>
+            
+              <td>
+                <span>Sun, Azar 25</span>
+              </td>
+            
+              <td>
+                <span>Value Iteration & Policy Iteration
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              even-row
+            ">
+            
+              <td>
+                <span>26</span>
+              </td>
+            
+              <td>
+                <span>Tue, Azar 27</span>
+              </td>
+            
+              <td>
+                <span>Reinforcement Learning: Passive
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              odd-row
+            ">
+            
+              <td>
+                <span>27</span>
+              </td>
+            
+              <td>
+                <span>Sun, Dey 2</span>
+              </td>
+            
+              <td>
+                <span>Reinforcement Learning: Active
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              even-row
+            ">
+            
+              <td>
+                <span>28</span>
+              </td>
+            
+              <td>
+                <span>Sun, Dey 4</span>
+              </td>
+            
+              <td>
+                <span>Reinforcement Learning: Approximate
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              odd-row
+            ">
+            
+              <td>
+                <span>29</span>
+              </td>
+            
+              <td>
+                <span>Sun, Dey 9</span>
+              </td>
+            
+              <td>
+                <span>Applications / Guest Lecturer
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+          <tr class="
+            
+              even-row
+            ">
+            
+              <td>
+                <span>30</span>
+              </td>
+            
+              <td>
+                <span>Sun, Dey 11</span>
+              </td>
+            
+              <td>
+                <span>Applications / Guest Lecturer
+</span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+              <td>
+                <span></span>
+              </td>
+            
+          </tr>
+        
+      </tbody>
+    </table>
+</div>
+
+<style>
+  /* Default row styles */
+  .table tbody tr.odd-row {
+    background-color: rgba(240, 240, 240, 0.8);
+  }
+  .table tbody tr.even-row {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .table tbody tr.warning-row {
+    background-color: rgba(255, 107, 107, 0.5);
+  }
+  .table tbody tr.deadline-row {
+    background-color: rgba(255, 217, 61, 0.5);
+  }
+  .table tbody tr.info-row {
+    background-color: rgba(108, 145, 255, 0.5);
+  }
+
+  /* Hover effect */
+  .table tbody tr:hover {
+    background-color: rgba(100, 100, 100, 0.8); /* Harder gray color on hover */
+    transition: background-color 0.3s ease;
+  }
+</style>
+
+  
+
+    
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const sidebar = document.getElementById("sidebar");
+      const toggleButton = document.getElementById("toggleSidebar");
+      const contentWrapper = document.getElementById("contentWrapper");
+  
+      if (window.innerWidth < 640) {
+        contentWrapper.classList.add("pt-20");
+      }
+  
+      toggleButton.addEventListener("click", function () {
+        if (sidebar.classList.contains("-translate-x-64")) {
+          sidebar.classList.remove("-translate-x-64");
+          contentWrapper.style.marginLeft = sidebar.offsetWidth + "px";
+        } else {
+          sidebar.classList.add("-translate-x-64");
+          contentWrapper.style.marginLeft = "0px";
+        }
+      });
+    });
+  </script>
+  
+
+  <style>
+    /* Hide sidebar initially */
+    #sidebar.-translate-x-64 {
+      transform: translateX(-100%);
+    }
+  </style>
+
+
+    </div>
+
+    <!-- Back to top button -->
+    <button
+      type="button"
+      data-mdb-ripple="true"
+      data-mdb-ripple-color="light"
+      class="inline-block p-3 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-600 active:shadow-lg transition duration-150 ease-in-out hidden bottom-5 right-5 fixed"
+      id="btn-back-to-top"
+    >
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fas"
+        class="w-4 h-4"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 448 512"
+      >
+        <path
+          fill="currentColor"
+          d="M34.9 289.5l-22.2-22.2c-9.4-9.4-9.4-24.6 0-33.9L207 39c9.4-9.4 24.6-9.4 33.9 0l194.3 194.3c9.4 9.4 9.4 24.6 0 33.9L413 289.4c-9.5 9.5-25 9.3-34.3-.4L264 168.6V456c0 13.3-10.7 24-24 24h-32c-13.3 0-24-10.7-24-24V168.6L69.2 289.1c-9.3 9.8-24.8 10-34.3.4z"
+        ></path>
+      </svg>
+    </button>
+
+    <script>
+      // Get the button
+      let backToTopBtn = document.getElementById('btn-back-to-top');
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.addEventListener('scroll', function () {
+        scrollFunction();
+      }, { get passive() { supportsPassive = true; } });
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          backToTopBtn.style.display = 'block';
+        } else {
+          backToTopBtn.style.display = 'none';
+        }
+      }
+      // When the user clicks on the button, scroll to the top of the document
+      backToTopBtn.addEventListener('click', backToTop);
+
+      function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </div>
+
+
+  <script src="/assets\js/flowbite-1.6.5.min.js"></script>
+</body>
+
+</html>

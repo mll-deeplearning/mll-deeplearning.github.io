@@ -1,0 +1,48 @@
+{% macro create_people(people_data) %}
+
+<div
+    {% if people_data.id %}
+    id="{{ people_data.id }}"
+    class="container sec"
+    {% endif %}
+>
+  <!-- <br>
+  <br>
+  <br>
+  <br> -->
+  {% for role in people_data.people_data %}
+    <div class="{% if role.display_name == 'Instructor' or role.display_name == 'Head Assistants' %}col-md-2{% else %}col-md-8{% endif %}">
+      <h2 style="font-size: large; font-family: 'Comic Sans MS', cursive;">{{ role.display_name }}</h2>
+      <br>
+      
+      {% for person in role.people %}
+        
+      <div class="instructor" style="{% if role.display_name == 'Instructor' or role.display_name == 'Head Assistants' %}margin-bottom: 25px;{% else %}vertical-align: top;{% endif %}">
+          <a 
+          {% if person.website %}
+          href="{{ person.website }}"
+          {% endif %}
+          target="_blank">
+            <div class="instructorphoto">
+              {% if person.pic | check_image %}
+              <img class="img-hover" src="{{static_or_abs_link(person.pic)}}">
+              {% else %}
+              <img class="img-hover" src="/assets/images/people/blank.png">
+              {% endif %}
+            </div>
+            <div style="font-family: 'Comic Sans MS', cursive;">
+              {{person.name}}
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    
+    </div>
+
+  {% endfor %}
+  
+<br>
+
+</div>
+
+{% endmacro %}

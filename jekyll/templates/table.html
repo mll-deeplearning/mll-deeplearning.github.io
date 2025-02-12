@@ -1,0 +1,72 @@
+{% macro create_table(table_data) %}
+<div
+    {% if table_data.id %}
+    id="{{ table_data.id }}"
+    {% endif %}
+    class="container sec">
+    <h2>{{ table_data.title }}</h2>
+    
+    <table class="table">
+      <colgroup>
+        {% set total = sum_attr(table_data.columns.values(), 'size') %}
+        {% for col_data in table_data.columns.values() %}
+          <col style="width: {{ col_data['size'] / total }}%">
+        {% endfor %}
+      </colgroup>
+
+      <thead class="active">
+        <tr class="active">
+          {% for col_data in table_data.columns.values() %}
+            <th> {{ col_data.display_name }} </th>
+          {% endfor %}
+        </tr>
+      </thead>
+
+      <tbody class="block md:table-row-group">
+        {% for row in table_data.rows %}
+          <tr class="
+            {% if row.type == 'warning' %}
+              warning-row
+            {% elif row.type == 'deadline' %}
+              deadline-row
+            {% elif row.type == 'info' %}
+              info-row
+            {% else %}
+              {{ 'odd-row' if loop.index is odd else 'even-row' }}
+            {% endif %}">
+            {% for col_name, col_data in table_data.columns.items() %}
+              <td>
+                <span>{{ row[col_name] or '' }}</span>
+              </td>
+            {% endfor %}
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+</div>
+
+<style>
+  /* Default row styles */
+  .table tbody tr.odd-row {
+    background-color: rgba(240, 240, 240, 0.8);
+  }
+  .table tbody tr.even-row {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .table tbody tr.warning-row {
+    background-color: rgba(255, 107, 107, 0.5);
+  }
+  .table tbody tr.deadline-row {
+    background-color: rgba(255, 217, 61, 0.5);
+  }
+  .table tbody tr.info-row {
+    background-color: rgba(108, 145, 255, 0.5);
+  }
+
+  /* Hover effect */
+  .table tbody tr:hover {
+    background-color: rgba(100, 100, 100, 0.8); /* Harder gray color on hover */
+    transition: background-color 0.3s ease;
+  }
+</style>
+{% endmacro %}

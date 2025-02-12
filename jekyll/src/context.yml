@@ -1,0 +1,90 @@
+parts:
+  - title: Objective
+    type: section
+    text: >
+      TODO
+
+  - title: Content
+    val: 1
+    id: details
+    type: section
+    subsections:
+      - title: Prerequisites
+        text: >
+          TODO
+      - title: Classes
+        text: >
+          TODO
+      - title: Grading
+        text: >
+          Please note that grades will be calculated out of $22.0$, 
+          with the respective grades for each section provided below:
+
+            - **Homework Assignments**: $???$
+              - Five Series, each $???$
+            - **Presentation**: $???$ point.
+            - **Quiz**: $???$ points.
+            - **Final Exam**: $???$ points.
+
+      
+      - title: Exam
+        text: >
+          TODO
+      
+      - title: Homeworks
+        text: >
+          TODO
+      - title: Collaboration, Academic Honesty, and Plagiarism
+        text: >
+          There will be a zero-tolerance policy for cheating or copying homework assignments. The first time you
+          are caught, we will refer you to the committee, and you will fail the course. Please refer
+          to the Education Committee's statement on homework etiquette.
+  
+  - title: Instruction Team
+    id: people
+    type: people
+    people_data:
+      - role: instructors
+        display_name: Instructor
+        people:
+          - name: Prof. M. Soleymani Baghshah
+            pic: images/people/Soleymani.jpg
+            website: https://sharif.edu/~soleymani/
+
+      - role: head_assistant
+        display_name: Head Assistants
+        people:
+          - name: Soroush Vafaei Tabar
+            pic: images/people/ta/Soroush Vafaei Tabar.jpg
+            website: mailto:todo@gmail.com
+        
+      - role: TA
+        display_name: Teacher Assistants
+        people:
+          - name: TODO
+            pic: images/people/ta/TODO.jpg
+          
+          - name: TODO
+            pic: images/people/ta/TODO.jpg
+          
+          - name: TODO
+            pic: images/people/ta/TODO.jpg
+          
+          - name: TODO
+            pic: images/people/ta/TODO.jpg
+          
+          - name: TODO
+            pic: images/people/ta/TODO.jpg
+          
+          - name: TODO
+            pic: images/people/ta/TODO.jpg
+          
+          - name: TODO
+            pic: images/people/ta/TODO.jpg  
+    
+
+  - title: Contacting Instruction Team
+    val: 1
+    type: section
+    text: >
+      TODO

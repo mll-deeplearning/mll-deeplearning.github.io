@@ -1,0 +1,33 @@
+{% macro create_subsection(subsection) %}
+<li>
+  <h3>{{ subsection.title }}</h3>
+  {% if subsection.text %}
+        {{subsection.text}}
+  {% endif %}
+</li>
+{% endmacro %}
+
+{% macro create_section(section) %}
+
+<div class="{% if section.val is defined and section.val == 1 %}sechighlight{% else %}{% endif %}">
+  <div class="container sec">
+    <h2>{{ section.title }}</h2>
+    {% if section.text %}
+      <div {% if section.id %}
+      id="{{ section.id }}"
+      {% endif %}>
+        {{section.text}}
+      </div>
+    {% endif %}
+
+    <ul>
+      {% for subsection in section.subsections %}
+        {{ create_subsection(subsection) }}
+      {% endfor %}
+    </ul>
+    <br>
+  </div>
+</div>
+
+{% endmacro %}
+

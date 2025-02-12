@@ -1,0 +1,11 @@
+parts:
+  - title: Workshops
+    type: table
+    columns:
+      description:
+        display_name: Description
+        size: 1
+        cell_class: font-semibold
+      slide:
+        display_name: Links
+        size: 1

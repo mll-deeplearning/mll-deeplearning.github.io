@@ -1,0 +1,10 @@
+nav:
+  content:
+    - link: /
+      text: Home
+    - link: /schedule
+      text: Schedule
+    - link: /slides
+      text: Slides
+    - link: /workshops
+      text: Workshops
