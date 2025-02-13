@@ -6,34 +6,58 @@
     class="container sec"
     {% endif %}
 >
-  <!-- <br>
-  <br>
-  <br>
-  <br> -->
   {% for role in people_data.people_data %}
     <div class="{% if role.display_name == 'Instructor' or role.display_name == 'Head Assistants' %}col-md-2{% else %}col-md-8{% endif %}">
-      <h2 style="font-size: large; font-family: 'Comic Sans MS', cursive;">{{ role.display_name }}</h2>
+      <h2 style="font-size: large;">{{ role.display_name }}</h2>
       <br>
       
       {% for person in role.people %}
-        
-      <div class="instructor" style="{% if role.display_name == 'Instructor' or role.display_name == 'Head Assistants' %}margin-bottom: 25px;{% else %}vertical-align: top;{% endif %}">
-          <a 
-          {% if person.website %}
-          href="{{ person.website }}"
-          {% endif %}
-          target="_blank">
-            <div class="instructorphoto">
-              {% if person.pic | check_image %}
-              <img class="img-hover" src="{{static_or_abs_link(person.pic)}}">
-              {% else %}
-              <img class="img-hover" src="/assets/images/people/blank.png">
-              {% endif %}
+        {% set has_links = person.github or person.email or person.linkedin or person.website %}
+        <div class="instructor" style="{% if role.display_name == 'Instructor' or role.display_name == 'Head Assistants' %}margin-bottom: 25px;{% else %}vertical-align: top;{% endif %}">
+          <div class="instructorphoto-container">
+            <a 
+            {% if person.website %}
+            href="{{ person.website }}"
+            {% endif %}
+            target="_blank">
+              <div class="instructorphoto {% if has_links %}hover-effect{% endif %}">
+                {% if person.pic | check_image %}
+                <img class="{% if has_links %}img-hover{% endif %}" src="{{static_or_abs_link(person.pic)}}">
+                {% else %}
+                <img class="{% if has_links %}img-hover{% endif %}" src="/assets/images/people/blank.png">
+                {% endif %}
+              </div>
+            </a>
+            {% if has_links %}
+            <div class="overlay">
+              <div class="icon-links">
+                {% if person.github %}
+                  <a href="{{ person.github }}" target="_blank" class="icon">
+                    <i class="fab fa-github"></i>
+                  </a>
+                {% endif %}
+                {% if person.email %}
+                  <a href="mailto:{{ person.email }}" class="icon">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                {% endif %}
+                {% if person.linkedin %}
+                  <a href="{{ person.linkedin }}" target="_blank" class="icon">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                {% endif %}
+                {% if person.website %}
+                  <a href="{{ person.website }}" target="_blank" class="icon">
+                    <i class="fas fa-globe"></i>
+                  </a>
+                {% endif %}
+              </div>
             </div>
-            <div style="font-family: 'Comic Sans MS', cursive;">
-              {{person.name}}
-            </div>
-          </a>
+            {% endif %}
+          </div>
+          <div>
+            {{ person.name }}
+          </div>
         </div>
       {% endfor %}
     

@@ -56,7 +56,9 @@ parts:
         people:
           - name: Soroush Vafaei Tabar
             pic: images/people/ta/Soroush Vafaei Tabar.jpg
-            website: mailto:todo@gmail.com
+            email: todo@gmail.com
+            github: todo
+            linkedin: todo
         
       - role: TA
         display_name: Teacher Assistants
