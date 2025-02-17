@@ -54,35 +54,42 @@ parts:
       - role: head_assistant
         display_name: Head Assistants
         people:
-          - name: Soroush Vafaei Tabar
-            pic: images/people/ta/Soroush Vafaei Tabar.jpg
-            email: todo@gmail.com
-            github: todo
-            linkedin: todo
+          - name: Soroush Vafaie Tabar
+            pic: images/people/ta/Soroush Vafaie Tabar.jpg
+            email: svafaiet@gmail.com
+            github: https://github.com/Svafaiet
+            linkedin: https://www.linkedin.com/in/soroush-vafaie-tabar/
         
       - role: TA
         display_name: Teacher Assistants
         people:
-          - name: TODO
+          - name: Payam Taebi
             pic: images/people/ta/TODO.jpg
           
-          - name: TODO
+          - name: Ali Rahimi Akbar
             pic: images/people/ta/TODO.jpg
           
-          - name: TODO
+          - name: Amirhossein Izadi
             pic: images/people/ta/TODO.jpg
           
-          - name: TODO
+          - name: Arash Mari Oriyad
             pic: images/people/ta/TODO.jpg
           
-          - name: TODO
+          - name: Armin Saghafian
             pic: images/people/ta/TODO.jpg
           
-          - name: TODO
+          - name: Reza Abbasi
             pic: images/people/ta/TODO.jpg
           
-          - name: TODO
-            pic: images/people/ta/TODO.jpg  
+          - name: Mohammad Ali Banayeean
+            pic: images/people/ta/TODO.jpg 
+
+          - name: Mohammad Amanlou
+            pic: images/people/ta/mohammad amanlou.jpg
+            email: mohammadamanlou2@gmail.com
+            github: https://github.com/MohammadAmanlou
+            linkedin: https://www.linkedin.com/in/mohammad-amanlou-220b0121a/
+
     
 
   - title: Contacting Instruction Team
