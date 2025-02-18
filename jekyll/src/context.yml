@@ -98,13 +98,7 @@ parts:
             email: amirmm71382@gmail.com
             github: https://github.com/amirmm03
             linkedin: https://linkedin.com/in/amirmm03
-
-          - name: Amirmahdi Meighani
-            pic: images/people/ta/Amirmahdi Meighani.jpg
-            email: amirmm71382@gmail.com
-            github: https://github.com/amirmm03
-            linkedin: https://linkedin.com/in/amirmm03
-
+            
           - name: Mohammad Javad AhmadPour
             email: mohamadahmadpour1383@gmail.com
             pic: images/people/ta/Mohammad Javad Ahmadpour.jpg
@@ -169,7 +163,7 @@ parts:
             website: mohammadjranjbar.github.io
 
           - name: Ali Rahimiakbar
-            pic: images/people/ta/Aliali rahimyakbar.jpg
+            pic: images/people/ta/ali rahimyakbar.jpg
             email: alirahimyakbar@gmail.com
             linkedin: https://www.linkedin.com/in/ali-rahimiakbar-1a5762221/
 
@@ -186,7 +180,7 @@ parts:
             github: http://github.com/MehdiJmlkh
 
           - name: AmirHossein Haji Mohammad Rezaei
-            pic: images/people/ta/Mohammad Javad Ranjbar.png
+            pic: images/people/ta/AmirHossein Haji Mohammad Rezaei.jpg
             email: haji80as@gmail.com
             github: https://github.com/amir-haji
 
