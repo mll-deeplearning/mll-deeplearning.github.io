@@ -69,11 +69,14 @@ parts:
           - name: Ali Rahimi Akbar
             pic: images/people/ta/TODO.jpg
           
-          - name: Amirhossein Izadi
+          - name: Amirmohammad Izadi
             pic: images/people/ta/TODO.jpg
           
           - name: Arash Mari Oriyad
-            pic: images/people/ta/TODO.jpg
+            pic: images/people/ta/Arash Mari Oriyad.jpg
+            email: arashmarioriyad@gmail.com
+            github: https://github.com/Arash-Mari-Oriyad
+            linkedin: https://linkedin.com/in/arash-mari-oriyad
           
           - name: Armin Saghafian
             pic: images/people/ta/TODO.jpg
@@ -90,7 +93,120 @@ parts:
             github: https://github.com/MohammadAmanlou
             linkedin: https://www.linkedin.com/in/mohammad-amanlou-220b0121a/
 
-    
+          - name: Amirmahdi Meighani
+            pic: images/people/ta/Amirmahdi Meighani.jpg
+            email: amirmm71382@gmail.com
+            github: https://github.com/amirmm03
+            linkedin: https://linkedin.com/in/amirmm03
+
+          - name: Amirmahdi Meighani
+            pic: images/people/ta/Amirmahdi Meighani.jpg
+            email: amirmm71382@gmail.com
+            github: https://github.com/amirmm03
+            linkedin: https://linkedin.com/in/amirmm03
+
+          - name: Mohammad Javad AhmadPour
+            email: mohamadahmadpour1383@gmail.com
+            pic: images/people/ta/Mohammad Javad Ahmadpour.jpg
+
+
+          - name: Amirhossein Izadi
+            pic: images/people/ta/Amirhossein Izadi.jpeg
+            email: Amirizadi2002@gmail.com
+            linkedin: https://www.linkedin.com/amirizadi
+
+          - name: Shaygan Adim
+            pic: images/people/ta/Shaygan Adim.jpg
+            email: sh83adim@gmail.com
+            linkedin: https://www.linkedin.com/in/shaygan-adim-7aa394296
+
+          - name: Mohammad Mahdi Vahedi
+            pic: images/people/ta/Mohammad Mahdi Vahedi.jpg
+            linkedin: https://www.linkedin.com/in/mmvahedi/
+            email: https://github.com/MMVahedi
+
+          - name: Arash Rasouli
+            pic: images/people/ta/Arash Rasouli.jpg
+            linkedin: https://www.linkedin.com/in/arash-rasouli-4a940922b/
+            email: arash3908@gmail.com
+            github: https://github.com/arash-rasouli
+
+          - name: Ali Bababeig
+            pic: images/people/ta/Ali Bababeig.jpg
+            email: ali.bababeig@ce.sharif.edu
+
+          - name: Mehrdad Aksari Mahabadi 
+            pic: images/people/ta/Mehrdad Aksari Mahabadi.png
+            email: makmahabadi@gmail.com
+            linkedin: https://www.linkedin.com/in/mehrdad-aksari-mahabadi
+            github: github.com/mehrdad3301
+            website: mehrdad3301.github.io
+
+          - name: Ramtin Moslemi 
+            pic: images/people/ta/Ramtin Moslemi.jpeg
+            email: ramtin4moslemi@gmail.com
+            linkedin: https://www.linkedin.com/in/ramtin-m/
+            github: https://github.com/RamtinMoslemi
+            website: https://ramtinmoslemi.github.io
+
+          - name: Amirhossein Alamdar
+            pic: images/people/ta/AmirHossein Alamdar.jpg
+            email: ah.alamdar546@gmail.com
+            github: https://github.com/Amirhosseinalamdar
+
+          - name: Amir Kasaei
+            pic: images/people/ta/Amir Kasaei.jpg
+            email: a.kasaei@me.com
+            linkedin: https://linkedin.com/in/amirkasaei
+            github: https://github.com/amirkasaei
+            website: amirkasaei.com
+
+          - name: Mohammad Javad Ranjbar
+            pic: images/people/ta/Mohammad Javad Ranjbar.png
+            email: mohammadjavadranjbark@gmail.com
+            linkedin: https://www.linkedin.com/in/mohammadj/
+            github: http://github.com/mohammadJRanjbar/
+            website: mohammadjranjbar.github.io
+
+          - name: Ali Rahimiakbar
+            pic: images/people/ta/Aliali rahimyakbar.jpg
+            email: alirahimyakbar@gmail.com
+            linkedin: https://www.linkedin.com/in/ali-rahimiakbar-1a5762221/
+
+          - name: Parham Rezaei
+            pic: images/people/ta/Parham Rezaei.jpeg
+            email: parhamix@gmail.com
+            linkedin: https://www.linkedin.com/in/parham-rezaei
+            website: https://rezaei-parham.github.io
+
+          - name: Mehdi Jamalkhah
+            pic: images/people/ta/Mehdi Jamalkhah.jpg
+            email: mehdijmlkh1382@gmail.com
+            linkedin: http://linkedin.com/in/mehdi-jamalkhah
+            github: http://github.com/MehdiJmlkh
+
+          - name: AmirHossein Haji Mohammad Rezaei
+            pic: images/people/ta/Mohammad Javad Ranjbar.png
+            email: haji80as@gmail.com
+            github: https://github.com/amir-haji
+
+          - name: Alireza Farajtabrizi
+            pic: images/people/ta/Alireza FarajTabrizi.jpg
+            email: alireza15farajtabrizi@gmail.com
+            linkedin: https://www.linkedin.com/in/alireza.farajtabrizi/
+            github: http://github.com/AlirezaFT78/
+
+          - name: Iman Ahmadi
+            pic: images/people/ta/Iman Ahmadi.jpg
+            email: iman1234ahmadi@gmail.com
+            linkedin: linkedin.com/in/iman-ahmadi-41aab621b
+            github: https://github.com/iman1234ahmadi
+
+          - name: Mohammad Aghaei
+            pic: images/people/ta/Mohammad Aghaei.jpg
+            email: mohammadaghaei800@gmail.com
+            linkedin: https://www.linkedin.com/in/mohammad--aghaei/
+            github: https://github.com/mohmmadweb
 
   - title: Contacting Instruction Team
     val: 1
